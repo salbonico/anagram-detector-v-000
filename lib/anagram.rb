@@ -9,8 +9,6 @@ end
 
 def match(words)
   output = []
-
-  index = 0
   words.each do |word|
   if word.split("").sort == @keyword
     output.push(word)
